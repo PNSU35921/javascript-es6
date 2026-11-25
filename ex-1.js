@@ -13,4 +13,10 @@ let additionalProperties = {
 
 // Start coding here
 
-console.log(newStudentProfile);
+
+const mergedProfile = {
+  ...studentProfile,
+  ...additionalProperties,
+};
+
+console.log(mergedProfile);

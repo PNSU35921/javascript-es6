@@ -11,4 +11,8 @@ let additionalOrders = [
 
 // Start coding here
 
-console.log(newOrders);
+
+let allOrders = [...orders, ...additionalOrders];
+
+
+console.log(allOrders);
